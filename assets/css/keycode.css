@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+}
+main {
+  background-color: rgba(190, 194, 194, 0.863);
+  height: 100vh;
+}
+main article:nth-child(1) {
+  height: 40vh;
+  text-align: center;
+  font-size: 110px;
+  font-weight: 900;
+  padding-top: 20vh;
+}
+main article:nth-child(2) {
+  display: flex;
+  justify-content: space-around;
+}
+div {
+  width: 30vw;
+  text-align: center;
+  font-size: 28px;
+}
+h3 {
+  padding: 20px;
+}
+div h3:nth-child(1) {
+  background-color: lightblue;
+}
+div h3:nth-child(2) {
+  background-color: #fff;
+}
